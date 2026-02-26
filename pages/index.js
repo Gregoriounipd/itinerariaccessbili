@@ -14,8 +14,7 @@ import {
   ArrowRight,
   Calendar,
   Landmark,
-  Book,
-  Museum
+  Book
 } from 'lucide-react'
 
 export default function Home() {
@@ -528,7 +527,7 @@ export default function Home() {
                 >
                   <div className="max-w-md mx-auto">
                     <div className="w-20 h-20 bg-gray-100 dark:bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-6" aria-hidden="true">
-                      <Museum className="w-10 h-10 text-gray-400" />
+                      <Landmark className="w-10 h-10 text-gray-400" />
                     </div>
                     <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">
                       Itinerari in preparazione
